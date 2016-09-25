@@ -1,0 +1,1 @@
+- Eviter le "throw it over the wall mentality"
