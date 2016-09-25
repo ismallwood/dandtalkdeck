@@ -208,8 +208,8 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #31acb2;
-  text-decoration: none;
+  color: #000;
+/*  text-decoration: none; */
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
@@ -230,8 +230,8 @@ body {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
 /*  border: 4px solid #222;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); } */
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);  */
+}
 .reveal section img.plain {
   border: 0;
   box-shadow: none; }
@@ -251,7 +251,7 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #31acb2; }
+  border-right-color: #31acb2 !important; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
